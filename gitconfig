@@ -1,0 +1,13 @@
+#[user]
+#	email = 66052039+dinulhaque@users.noreply.github.com
+#	name = Dinul Haque
+
+[user]
+	email = Dinul.Haque@live.co.uk
+	name = Dinul Haque
+
+
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/dinul/.gitignore_global
