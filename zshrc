@@ -10,27 +10,7 @@ plugins=(
 alias tfp="terraform plan"
 alias tfpdev="terraform plan -var-file=dev.tfvars"
 alias tfadev="terraform apply -var-file=dev.tfvars"
-
-alias ibmrepo="cd ~/Library/CloudStorage/OneDrive-GenetechLTD/project/data/coderepos"
-
  
- 
- alias centrallog="cd ~/Library/CloudStorage/OneDrive-GenetechLTD/project/data/coderepos/test-s3-bucket/central-logging-bucket"
-
-
-
-alias tfpcommon="terraform plan -var-file=common.tfvars"
-
-alias tfacommon="terraform apply -var-file=common.tfvars"
-
-alias macie="cd ~/Library/CloudStorage/OneDrive-GenetechLTD/project/data/coderepos/Macie"
-
-alias ibmrepo="cd ~/Library/CloudStorage/OneDrive-GenetechLTD/project/data/coderepos"
-
-alias tfpdev="terraform plan -var-file=dev.tfvars"
-
-alias tfadev="terraform apply -var-file=dev.tfvars"
-
 
 alias ls="ls -lAFh"
 
