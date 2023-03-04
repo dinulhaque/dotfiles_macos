@@ -11,7 +11,7 @@
     ~/.kite:
     ~/.pyenv:
     ~/.vim:
-    ~/.vscode
+    ~/.vscode:
 
 - create:
     - ~/Work
