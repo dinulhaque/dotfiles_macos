@@ -8,6 +8,10 @@
     ~/.vimrc: 
     ~/.zhrc: 
     ~/.gitconfig:
+    ~/.kite:
+    ~/.pyenv:
+    ~/.vim:
+    ~/.vscode
 
 - create:
     - ~/Work
