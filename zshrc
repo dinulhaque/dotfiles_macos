@@ -7,10 +7,12 @@ plugins=(
     zsh-autosuggestions
 )
 #source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-alias tfp="terraform plan"
-alias tfpdev="terraform plan -var-file=dev.tfvars"
-alias tfadev="terraform apply -var-file=dev.tfvars"
- 
+
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
+export HOMEBREW_CASK_OPTS="--no-quarantine"
+
+alias exa='exa -laFh --git'
 
 alias ls="ls -lAFh"
 
@@ -37,4 +39,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
 

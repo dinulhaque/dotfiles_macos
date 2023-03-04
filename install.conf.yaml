@@ -5,12 +5,21 @@
 - clean: ['~']
 
 - link:
-    ~/.vim: vim
-    ~/.zhrc: zshrc
+    ~/.vimrc: vimrc 
+    ~/.zshrc: 
+    ~/.gitconfig:
+    ~/.kite:
+    ~/.pyenv:
+    ~/.vim:
+    ~/.vscode:
 
 - create:
     - ~/Work
 #    - ~/
 
-#- shell:
+- shell:
 #  - [git submodule update --init --recursive, Installing submodules]
+    -
+      command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
