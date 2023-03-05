@@ -4,8 +4,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/docker"
+tap "eth-p/software"
 
 
+brew "eth-p/software/bat-extras"
 brew "xz"
 brew "ansible"
 brew "ansible-lint"

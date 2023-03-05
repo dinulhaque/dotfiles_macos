@@ -8,14 +8,14 @@ plugins=(
 )
 #source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+#export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 alias exa='exa -laFh --git'
 
 alias ls="ls -lAFh"
-
+alias man=batman
 PROMPT='
 %n@%m %1~ %# '
 
